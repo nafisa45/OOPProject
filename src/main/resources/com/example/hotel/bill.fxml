@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="632.0" prefWidth="720.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel.BillController">
+    <children>
+        <AnchorPane layoutX="15.0" layoutY="8.0" prefHeight="63.0" prefWidth="690.0" style="-fx-background-color: #ffd700;">
+            <children>
+                <ImageView fitHeight="48.0" fitWidth="82.0" layoutX="8.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@res/ce126a175458bbcd06c1bdad6e88adef.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="104.0" layoutY="17.0" text="Bills Details">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="16.0" layoutY="77.0" prefHeight="529.0" prefWidth="690.0" style="-fx-background-color: #ffd700;">
+            <children>
+                <TextField fx:id="search" layoutX="61.0" layoutY="23.0" onKeyReleased="#handleSearchKey" prefHeight="25.0" prefWidth="212.0" promptText="Type Date" />
+                <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="28.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@res/icons8-search-32.png" />
+                    </image>
+                </ImageView>
+                <TableView fx:id="billTable" layoutX="6.0" layoutY="87.0" onMouseClicked="#clickBill" prefHeight="419.0" prefWidth="672.0" style="-fx-background-color: #AEC6CF;">
+                    <columns>
+                        <TableColumn fx:id="billID" prefWidth="57.0" text="Bill ID" />
+                        <TableColumn fx:id="customerName" prefWidth="130.0" text="Customer Name" />
+                        <TableColumn fx:id="cusIDNumber" prefWidth="171.0" text="Customer ID Number" />
+                        <TableColumn fx:id="roomNumber" prefWidth="120.0" text="Room Number" />
+                        <TableColumn fx:id="Date" prefWidth="91.0" text="Date" />
+                        <TableColumn fx:id="Amount" prefWidth="105.0" text="Amount" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

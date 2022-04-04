@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="610.0" prefWidth="720.0" style="-fx-background-color: #ffd700;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutFormFormController">
+    <ImageView fitHeight="245.0" fitWidth="229.0" layoutX="493.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/hotel-indigo-logo-vector.png" />
+    </ImageView>
+    <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: #000000;" />
+    <Label layoutX="474.0" layoutY="247.0" prefHeight="31.0" prefWidth="365.0" text="Hotel Managment System">
+        <font>
+            <Font name="System Bold" size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="264.0" layoutY="309.0" text="A  Program  for managing  customers of Hotel Indigo,">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="251.0" layoutY="352.0" text="This software provides to manage daily operations of check in and check out">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="251.0" layoutY="398.0" text="And this is made for 1st semester of second year  project of CSEDU 26 Batch">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="248.0" layoutY="444.0" text="These are the facilities of this software,">
+        <font>
+            <Font name="System Bold" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="259.0" layoutY="499.0" prefHeight="31.0" prefWidth="342.0" text="- View Availability of Rooms">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="259.0" layoutY="544.0" prefHeight="31.0" prefWidth="342.0" text="- Manage Customers">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="259.0" layoutY="594.0" prefHeight="31.0" prefWidth="342.0" text="- Manage Rooms">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="258.0" layoutY="649.0" prefHeight="31.0" prefWidth="433.0" text="- View Checkout Progress &amp; Much More.">
+        <font>
+            <Font size="21.0" />
+        </font>
+    </Label>
+    <Label layoutX="258.0" layoutY="714.0" text="Contact Us">
+        <font>
+            <Font name="System Bold" size="20.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="411.0" layoutY="708.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/Facebook.png" />
+    </ImageView>
+    <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="474.0" layoutY="708.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/instergram.png" />
+    </ImageView>
+    <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="526.0" layoutY="708.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/LinkedIn.png" />
+    </ImageView>
+    <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="582.0" layoutY="708.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/Youtube.png" />
+    </ImageView>
+    <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="637.0" layoutY="714.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/Tweeter.png" />
+    </ImageView>
+</AnchorPane>
