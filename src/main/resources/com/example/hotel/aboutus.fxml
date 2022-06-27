@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="594.0" prefWidth="771.0" style="-fx-background-color: #ffd700;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel.AboutUsController">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="5.0" prefHeight="31.0" prefWidth="768.0" style="-fx-background-color: #000000;" />
+      <ImageView fitHeight="115.0" fitWidth="174.0" layoutX="311.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/hotel-indigo-logo-vector.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="269.0" layoutY="153.0" prefHeight="31.0" prefWidth="303.0" text="Hotel Managment System">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="184.0" prefHeight="41.0" prefWidth="752.0" text="A  Program  for managing  customers of Hotel Indigo,This management system  provides to manage daily ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="222.0" prefHeight="31.0" prefWidth="761.0" text="operations of check in and check out And this is made for 1st semester of second year  project of CSEDU  ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="262.0" prefHeight="18.0" prefWidth="86.0" text="26 Batch.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="289.0" prefHeight="41.0" prefWidth="325.0" text="These are the facilities of this software:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="330.0" prefHeight="31.0" prefWidth="203.0" text="- View Availability of Rooms">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="380.0" prefHeight="31.0" prefWidth="211.0" text="- Manage Customers">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="423.0" prefHeight="41.0" prefWidth="203.0" text="- Manage Rooms">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="478.0" prefHeight="31.0" prefWidth="286.0" text="- View Checkout Progress &amp; Much More.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="529.0" prefHeight="41.0" prefWidth="104.0" text="Contact Us:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="328.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/Facebook.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="378.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/instergram.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="429.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/Tweeter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="53.0" layoutX="485.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/Youtube.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="537.0" layoutY="530.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/LinkedIn.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
